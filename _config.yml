@@ -1,7 +1,7 @@
 name: "Pimentel Lab"
 description: "This is the official web page for the Harold Pimentel at UCLA."
 
-url: "http://pimentellab.com"
+url: "http://pimentellab.github.io"
 
 paginate: 5
 plugins: [jekyll-paginate]
