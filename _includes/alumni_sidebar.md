@@ -1,4 +1,4 @@
-## Fraser Lab Alumni
+## Pimentel Lab Alumni
 {% assign sorted = site.members | sort: "enddate" | reverse %}
 {% for member in sorted %}
 
@@ -75,7 +75,7 @@ Subsequently: {{member.subsequent}} <br>
 </div>
 {% endfor %}
 
-<br>
+<!-- <br>
 ## UCSF-USF Interns
 {% for undergraduate in sorted %}
 
@@ -105,7 +105,7 @@ Subsequently: {{member.subsequent}} <br>
 Subsequently: {{undergraduate.subsequent}}<br>
 {% endif %}
 </p>
-</div> {% endfor %}
+</div> {% endfor %} -->
 
 
 <br>
@@ -145,7 +145,7 @@ Subsequently: {{undergraduate.subsequent}}<br>
 </div> {% endfor %}
 
 
-<br>
+<!-- <br>
 ## [High School Interns](http://sep.ucsf.edu/hs_programs/high-school-intern-program/)
 {% for student in sorted %}
 
@@ -174,11 +174,11 @@ Subsequently: {{undergraduate.subsequent}}<br>
 Subsequently: {{student.subsequent}}<br>
 {% endif %}
 </p>
-</div> {% endfor %}
+</div> {% endfor %} -->
 
 
 <br>
-## Fraser Lab Visitors
+## Pimentel Lab Visitors
 {% for visitor in sorted %}
 
 {% assign position = visitor.position | downcase %}

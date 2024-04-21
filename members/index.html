@@ -1,13 +1,13 @@
 ---
-title: Fraser Lab Members
+title: Pimentel Lab Members
 layout: members
 group: members
 ---
 
-<h1>Fraser Lab Members</h1>
-
-The Fraser lab welcomes people of any race, ethnicity, religion, national origin, gender identity, gender expression, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or disability status.<br>
-<h5>See our<a href="/philosophy/"> lab compact and philosophy</a>.</h5>
+<h1>Pimentel Lab Members</h1>
+<!-- 
+The Pimentel lab welcomes people  
+-->
 
 {% for member in site.members %}
 
@@ -40,10 +40,6 @@ The Fraser lab welcomes people of any race, ethnicity, religion, national origin
                 {% if member.linkedin %}
                   <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/logo/linkedin_logo.svg"></a>
                   <a href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a> <br>
-                {% endif %}
-                {% if member.UCSF %}
-                  <a href="http://www.ucsf.edu"><img class="inline-block mem-icon" src="/static/img/logo/ucsf_logo_black.svg"></a>
-                  <a href= "http://profiles.ucsf.edu/{{member.UCSF}}"> Profile </a> <br>
                 {% endif %}
                 {% if member.scholar %}
                   <a href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/logo/gscholar_logo.svg"></a>
@@ -96,10 +92,6 @@ The Fraser lab welcomes people of any race, ethnicity, religion, national origin
                   <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/logo/linkedin_logo.svg"></a>
                   <a href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a> <br>
                 {% endif %}
-                {% if member.UCSF %}
-                  <a href="http://www.ucsf.edu"><img class="inline-block mem-icon" src="/static/img/logo/ucsf_logo_black.svg"></a>
-                  <a href= "http://profiles.ucsf.edu/{{member.UCSF}}"> Profile </a> <br>
-                {% endif %}
                 {% if member.scholar %}
                   <a href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/logo/gscholar_logo.svg"></a>
                   <a href= "http://scholar.google.com/citations?user={{member.scholar}}"> Scholar Citations </a> <br>
@@ -125,7 +117,7 @@ The Fraser lab welcomes people of any race, ethnicity, religion, national origin
 {% assign yheight = 16 %}
 {% assign yspacing = 18 %}
 {% assign fontsize = 12 %}
-{% assign yearoffset = 2010 %}
+{% assign yearoffset = 2018 %}
 {% assign majortick = 0.05 %}
 {% assign minortick = 0.025 %}
 {% assign legendboxsize = 20 %}
@@ -176,13 +168,13 @@ The Fraser lab welcomes people of any race, ethnicity, religion, national origin
 			{% assign color = "red" %}
 		{% elsif position contains "postdoctoral" %}
 			{% assign color = "darkorange" %}
-		{% elsif position contains "graduate student" %}
+		{% elsif position contains "phd student" or position contains "master student"%}
 			{% assign color = "gold" %}
 		{% elsif position contains "staff scientist" or position contains "programmer" or position contains "manager" %}
 			{% assign color = "green" %}
 		{% elsif position contains "specialist" or position contains "technician" or position contains "propel"%}
 			{% assign color = "turquoise" %}
-		{% elsif position contains "srtp" or position contains "intern" or position contains "summer" %}
+		{% elsif position contains "intern" or position contains "summer" %}
             {% unless position contains "affiliate" %}
                 {% assign color = "blue" %}
             {% endunless %}
