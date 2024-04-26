@@ -3,7 +3,7 @@ name: Albert Xue
 startdate: [2021-05-01]
 enddate: []
 image: /static/img/members/Xue.jpg
-# altimage: /static/img/members/Xue_pb.jpg
+altimage: /static/img/members/Xue_pb.jpg
 position: PhD Student, Bioinformatics
 pronouns: he/him
 email: albertsxue (at) gmail.com
