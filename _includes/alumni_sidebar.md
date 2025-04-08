@@ -108,7 +108,7 @@ Subsequently: {{undergraduate.subsequent}}<br>
 </div> {% endfor %} -->
 
 
-<br>
+<!-- <br>
 ## Undergraduate Interns
 {% for undergraduate in sorted %}
 
@@ -119,9 +119,9 @@ Subsequently: {{undergraduate.subsequent}}<br>
 {% endunless %}
 {% if position contains "affiliate" or position contains "ucsf-usf"%}
     {% continue %}
-{% endif %}
+{% endif %} -->
 
-<hr>
+<!-- <hr>
 <div id = "{{undergraduate.name}}" style="padding-top: 60px; margin-top: -60px;">
 <p><strong>{{undergraduate.name}}</strong> - <em>{{undergraduate.position | markdownify | remove: '<p>' | remove: '</p>' }}</em><br>
 
@@ -142,7 +142,7 @@ Subsequently: {{undergraduate.subsequent}}<br>
 Subsequently: {{undergraduate.subsequent}}<br>
 {% endif %}
 </p>
-</div> {% endfor %}
+</div> {% endfor %} -->
 
 
 <!-- <br>
