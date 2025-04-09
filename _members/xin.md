@@ -2,7 +2,7 @@
 name: Riley Xin
 startdate: [2023-03-20]
 enddate: [2024-06-30]
-subsequent: Graduate Student @ UChicago
+subsequent: PhD Student @ UChicago GGSB
 image: /static/img/members/Xin.jpg
 # altimage: /static/img/members/LastName_pb.jpg #365 x 365 pixels, 72 dpi
 position: Undergraduate Student
