@@ -1,7 +1,7 @@
 ---
 name: Eric Ma
 startdate: [2024-10-01]
-enddate: []
+enddate: [2025-08-01]
 position: Undergraduate Student
 email: ema2027 (at) ucla.edu
 image: /static/img/members/Ma.jpg

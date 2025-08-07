@@ -1,10 +1,11 @@
 ---
 name: Sandy Kim
-startdate: [2020-10-01]
-enddate: []
+startdate: [2020-10-01, 2021-09-01]
+enddate: [2021-09-01, ]
 image: /static/img/members/Kim.jpg
 # altimage: /static/img/members/Rao_pb.jpg
 position: PhD Student, Bioinformatics
+timeline_positions: ["Master Student (2020-2021)", "PhD Student (2021-)"]
 pronouns: she/her
 email: sandykim (at) ucla.edu
 scholar:

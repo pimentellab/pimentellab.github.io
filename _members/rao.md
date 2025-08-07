@@ -1,10 +1,11 @@
 ---
 name: Jingyou Rao
-startdate: [2020-07-01]
-enddate: []
+startdate: [2020-07-01, 2021-09-01]
+enddate: [2021-09-01, 2025-08-31]
 image: /static/img/members/Rao.jpg
 # altimage: /static/img/members/Rao_pb.jpg
 position: PhD Student, Computer Science
+timeline_positions: ["Undergraduate Student (2020-2021)", "PhD Student (2021-2025)"]
 pronouns: she/her/hers
 email: roserao (at) ucla.edu
 scholar: ERxq2TEAAAAJ
