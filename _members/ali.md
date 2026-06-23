@@ -2,7 +2,7 @@
 name: Atef Ali
 startdate: [2025-06-01] #Enter your start date
 enddate: [] 
-image: /static/img/members/ali.jpg #365 x 365 pixels, 72 dpi
+image: /static/img/members/Ali.jpg #365 x 365 pixels, 72 dpi
 position: PhD Student, Bioinformatics
 pronouns: he/him
 email: atefali (at) ucla.edu
