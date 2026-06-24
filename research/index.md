@@ -7,50 +7,68 @@ group: research
 <div class="row">
 
 # Our research
-Our goal is to better understand how genes regulate each other and how disease disrupts gene networks. This goal is realized by developing software that enables us and others to analyze complex genomic datasets that sample the transcriptional landscape. With this mission in mind, we build models with insight of the experimental protocols and biological questions while utilizing and extending the latest theory of computer science and statistics.
+Our goal is to better how genetic variation affects molecular phenotypes and in turn, how that affects diseases.
+This goal is realized by developing software that enables us and others to analyze complex genomic datasets that sample the transcriptional landscape.
+With this mission in mind, we build models with insight of the experimental protocols and biological questions while utilizing and extending the latest theory of computer science and statistics.
+Primarily, we focus on experimental perturbations such as deep mutational scans or CRISPR screens and human genetic variation.
 
 </div>
+
 
 <div class="row">
 
-### Structure learning for gene regulation
 
-<div class="col-md-7 order-md-3">
+### Statistical foundations for perturbation assays
 
-We are utilizing and extending new developments in machine learning to model the behavior of modern genetic perturbations (i.e. CRISPR) to develop tools for inferring gene network structure.
-
+<div class="col-md-7 order-md-1">
+We have developed a number of tools to analyze Deep Mutational Scans (both fitness and FACS-based), Massively Parallel Reporter Assays, and Perturb-seq.
+These methods are generally geared towards estimating effect sizes in small-sample experiments which are common (i.e. three replicates).
 </div>
-<div class="col-md-5 order-md-3 align-self-center">
-<img class="img-fluid" src="/static/img/research/structure_learning.png">
+
+<div class="col-md-5 order-md-2 align-self-center">
+<img class="img-fluid" src="/static/img/research/lilace.png">
 </div>
-</div>
-<div class="row">
-
-### Active learning for experimental design
-
-<div class="col-md-7 order-md-3">
-
-Modern experiments can capture multiple phenotypes at the cell-level while capturing millions of cells in one library preparation. Seemingly unbounded sampling potential means that naively sampling everything is likely to be prohibitively expensive. We are developing active machine learning techniques to guide experimentalists through iterative sampling towards the most informative data given prior data, goals, and cost.
 
 </div>
 
-<div class="col-md-5 order-md-3 align-self-center">
-<img class="img-fluid" src="/static/img/research/experimental_design.png">
-</div>
-</div>
-<div class="row">
+<div class="row mb-5">
 
-### Quantifying the genetic component of RNA
-
-<div class="col-md-7 order-md-3 ">
-
-We are developing methods to integrate the advances in RNA-seq quantification uncertainty, population specific sequence alignment, and causal inference to understand genetic drivers of disease.
-
+<div class="col-12">
+### <i>In vitro</i> human genetics
 </div>
 
-<div class="col-md-5 order-md-3 align-self-center">
+<div class="col-md-7 order-md-2">
+We have been developing tools for analyzing <i>Cell Villages</i>, an experimental technique where cells from different people are cultured together.
+This co-culture approach enables us to study genetic variation and how it affects molecular and complex traits.
+Thus far, we have developed Townlet to analyze Census-seq Cell Villages.
+We are currently developing experimental design techniques as well as methods for pharmacogenomic analysis of Cell Villages.
 
-<img class="img-fluid" src="/static/img/research/gene_expression.png">
+</div>
+
+<div class="col-md-5 order-md-1 align-self-center">
+<img class="img-fluid" src="/static/img/research/townlet.png">
+</div>
+
+</div>
+
+<div class="row mb-5">
+
+<div class="col-12">
+### Applied computational biology
+</div>
+
+<div class="col-md-7 order-md-1 ">
+
+We don't build tools in a vacuum, and we don't build tools for the sake of building tools.
+Every tool we have developed serves a purpose in a collaboration.
+Currently, we are working on pharmacogenomics in DMS, gene-gene interactions and their affects on protein function, gene-by-environment interactions with neural development.
+Friends of the lab are Michael Wells, Willow Coyote-Maestas, Justin English, Debora Sobreira, Valerie Arboleda, and many others.
+
+</div>
+
+<div class="col-md-5 order-md-2 align-self-center">
+
+<img class="img-fluid" src="/static/img/research/16pdel.png">
 </div>
 </div>
 <div class="row">
