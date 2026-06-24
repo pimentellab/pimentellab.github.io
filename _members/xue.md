@@ -4,8 +4,8 @@ startdate: [2021-05-01, 2026-06-11]
 enddate: []
 image: /static/img/members/Xue.jpg
 altimage: /static/img/members/Xue_pb.jpg
-position: Postdoctoral Researcher
-timeline_positions: ["PhD Student (2021-2026)", "Postdoc (2026-)"]
+position: Postdoctoral fellow
+timeline_positions: ["PhD Student (2021-2026)", "Postdoctoral fellow (2026-)"]
 pronouns: he/him
 email: albertsxue (at) gmail.com
 scholar: LaxquzgAAAAJ
